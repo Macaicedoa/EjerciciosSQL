@@ -1,0 +1,1 @@
+CREATE TABLE Books ( id INTEGER PRIMARY KEY AUTOINCREMENT, title TEXT NOT NULL, author TEXT VARCHAR(20), genre TEXT VARCHAR(20), published_year INTEGER VARCHAR(4), isbn VARCHAR(50), price FLOAT, rating FLOAT, stock_count INTEGER);
